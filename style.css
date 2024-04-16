@@ -6,6 +6,7 @@
     font-family: "Poppins", sans-serif;
 }
 body{
+    
     background: linear-gradient(90deg, rgb(53, 107, 244), rgb(0, 157, 255), rgb(9, 212, 248));
 }
 header{
@@ -17,14 +18,16 @@ header{
 }
 ul{
     display: flex;
-    margin-left:50%;
+    margin-left:40%;
     margin-top: 20px;
-    gap: 15px ;
+    gap: 25px ;
     }
 a{
     color: #ffffff;
     text-decoration: none;
     font-weight: 600;
+    font-size: 25px;
+    
 }
 a:hover{
     color: #064ae9;
@@ -42,31 +45,49 @@ main{
     
 }
 h1{
-    font-size: 50px;
+    font-size: 70px;
     width: 500px;
     height: 100px;
     margin-bottom: 100px;
     color: #ffffff;
 }
-section{
-    display: flex;
-    flex-direction: row;
-    margin-left: 0px;
+h2{
+    font-size: 50px;
 }
-.times{
-   display: flex;
-   flex-direction: column;
-   margin-left: 0px;
-    color:#ffffff ;
-    
 
+.times{
+    margin-top: 5%;
 }
-.times button{
-    
-    border-radius: 5px;
+.container {
+    display: flex;
+    align-items: center; /* Para centralizar verticalmente */
+    justify-content: center; /* Para centralizar horizontalmente */
+}
+
+
+
+.list {
+color: #ffffff;
+font-size: 25px;
+margin-bottom: 50px;
+margin-left: 10px;   
+}
+button{
+    width: 200px;
+    border-radius: 15px;
     border: none;
-}
-.linda-blu{
-    
+    font-size: 18px;
     
 }
+
+
+button:hover{
+    background-color: #064ae9;
+    color: #ffffff;
+}
+
+.image-container {
+    margin-left: 0px; /* Adicionando espaço entre a lista e a imagem */
+    width: 120%;
+}
+
