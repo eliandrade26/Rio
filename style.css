@@ -1,102 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-body{
+
+body {
     width: 100%;
     background: linear-gradient(90deg, rgb(53, 107, 244), rgb(0, 157, 255), rgb(9, 212, 248));
 }
-header{
+
+header {
     width: 100%;
     display: flex;
 }
-.logo-rio{
+
+.logo-rio {
     width: 20%;
 }
-ul{
+
+ul {
     display: flex;
-   
+
     margin: 20px auto;
-    gap: 25px ;
-    }
-a{
+    gap: 25px;
+}
+
+a {
     color: #ffffff;
     text-decoration: none;
     font-weight: 600;
     font-size: 25px;
-    
+
 }
-a:hover{
+
+a:hover {
     color: #064ae9;
 }
 
-main{
+main {
     display: flex;
 }
-.turma-rio{
+
+.turma-rio {
     width: 80%;
     margin: 9% 110px;
 }
-.texts{
+
+.texts {
     margin-top: 5%;
-    
+
 }
-h1{
+
+h1 {
     font-size: 70px;
     width: 500px;
     height: 100px;
     margin-bottom: 100px;
     color: #ffffff;
 }
-h2{
+
+h2 {
     font-size: 50px;
 }
 
-.times{
+.times {
     margin-top: 5%;
 }
-.container{
+
+.container {
     display: flex;
-    align-items: center; /* Para centralizar verticalmente */
-    justify-content: center; /* Para centralizar horizontalmente */
+    align-items: center;
+    /* Para centralizar verticalmente */
+    justify-content: center;
+    /* Para centralizar horizontalmente */
 }
 
 
 
-.list{
-color: #ffffff;
-font-size: 25px;
-margin-bottom: 50px;
-margin-left: 10px;   
+.list {
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-left: 10px;
 }
-button, img{
+
+button,
+img {
     width: 150px;
     border-radius: 15px;
     border: none;
     font-size: 18px;
-    
+
 }
 
 
-button:hover{
+button:hover {
     background-color: #064ae9;
     color: #ffffff;
-    position: relative; /* acompanhado com top -1px faz o elemento subir*/
+    position: relative;
+    /* acompanhado com top -1px faz o elemento subir*/
     top: -1px;
     cursor: pointer;
 }
 
 .image-container {
-    margin-left: 0px; /* Adicionando espaço entre a lista e a imagem */
+    margin-left: 0px;
+    /* Adicionando espaço entre a lista e a imagem */
     width: 110%;
-    
+
 }
 
-.container-season{
-    
+.container-season {
+
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -104,34 +122,65 @@ button:hover{
     text-align: center;
     font-size: 30px;
     margin-top: 3%;
-   
-   
+
+
 }
-.image-room{
+
+.image-room {
     width: 300px;
     height: 300px;
-    
-    
-    object-fit: cover; /* faz com que as 4 imagens tenham o mesmo tamanho*/
+
+
+    object-fit: cover;
+    /* faz com que as 4 imagens tenham o mesmo tamanho*/
 }
-.image-room:hover{
-   
+
+.image-room:hover {
+
     scale: 1.1;
     transition: .5s;
 }
-.bird-red{
+
+.bird-red {
     margin-left: 20px;
 }
 
-@media (max-width:1799px ) {
-   body{
-    width: 100vw;
-    background: linear-gradient(100deg, rgb(53, 107, 244), rgb(0, 157, 255), rgb(9, 212, 248));
-   }
-    ul{
-        display: flex;
-        margin: 20px auto;
-       
-        }
+.container-food {
+    display: flex;
+
+
 }
 
+.food {
+
+    display: block;
+    margin: 1% auto;
+    gap: 15px;
+}
+
+.pipoca,
+.refri,
+.choco {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+p {
+    height: 50%;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+
+
+
+
+}
+
+p:hover {
+    color: #064ae9;
+    ;
+}
